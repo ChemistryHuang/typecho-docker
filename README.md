@@ -1,11 +1,14 @@
 # typecho-docker
 docker typecho ssl证书设置
+
 创建镜像
 
 ```shell
 docker build -t chemistryhuang/typecho .
 ```
+
 证书命名规范
+
 www.example.com_public.crt ---->server.crt
 
 www.example.com_chain.crt ----->ca.crt
