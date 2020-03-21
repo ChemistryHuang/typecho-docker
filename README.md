@@ -6,9 +6,9 @@ docker typecho ssl证书设置
 docker build -t chemistryhuang/typecho .
 ```
 证书命名规范
->www.example.com_public.crt ---->server.crt
->www.example.com_chain.crt ----->ca.crt
->www.example.com.key --->server.key
+www.example.com_public.crt ---->server.crt
+www.example.com_chain.crt ----->ca.crt
+www.example.com.key --->server.key
 
 创建容器
 
